@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flower Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Flower Gallery</h1>
+
+  <div class="gallery">
+    <img src="images/rose.jpg" alt="Rose" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/sunflower.jpg" alt="Sunflower" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/tulip.jpg" alt="Tulip" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/lily.jpg" alt="Lily" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/daisy.jpg" alt="Daisy" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/orchid.jpg" alt="Lotus" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/cherry-blossom.jpg" alt="Lotus" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/jasmine.jpg" alt="Lotus" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/dahlia.jpg" alt="Lotus" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/lotus.jpg" alt="Lotus" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/marigold.jpg" alt="Lotus" class="gallery-item" onclick="openLightbox(this)">
+    <img src="images/hibiscus.jpg" alt="Lotus" class="gallery-item" onclick="openLightbox(this)">
+
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" class="lightbox-img" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
